@@ -1,0 +1,3 @@
+- **Revisão da sintaxe básica:** Variáveis, tipos de dados, operadores e controle de fluxo (if, for, while, etc).
+- **Ponteiros e gerenciamento de memória:** Entenda ponteiros, aritmética de ponteiros, alocação dinâmica (malloc, calloc, free) e noções de manipulação de memória.
+- **Recursos:** Livros clássicos como _"The C Programming Language"_ (K&R) e tutoriais on-line.

@@ -1,0 +1,234 @@
+{
+  "main": {
+    "id": "4990b78b92711340",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4a82c6b8f67dc02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f83c09bb5216b1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguagem C/Linguagem C.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linguagem C"
+            }
+          },
+          {
+            "id": "d7b3e62ad8278c92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguagem C/Tabela Hash.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tabela Hash"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "15d589af9eb3569b",
+    "type": "split",
+    "children": [
+      {
+        "id": "93175ece0b05d661",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d81569475779c745",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "1294da7cce58bd80",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "072267834ed4c5c0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fc908e5d3cf04fc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "55cf3e0697eda375",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b501370d1c086f84",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Linguagem C/Tabela Hash.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para Tabela Hash"
+            }
+          },
+          {
+            "id": "313fef931b53b7b7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Linguagem C/Tabela Hash.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Tabela Hash"
+            }
+          },
+          {
+            "id": "5019b2be4b8046c0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9af142cf0ee31a23",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Linguagem C/Tabela Hash.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Tabela Hash"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "d7b3e62ad8278c92",
+  "lastOpenFiles": [
+    "Linguagem C/Structs.md",
+    "Linguagem C/Pilhas.md",
+    "Linguagem C/Tabela Hash.md",
+    "Pasted image 20250414191146.png",
+    "Pasted image 20250414190034.png",
+    "Pasted image 20250414185725.png",
+    "Linguagem C/Fila.md",
+    "Linguagem C/Linguagem C.md",
+    "Linguagem C/Arrays.md",
+    "Linguagem C/Funcoes.md",
+    "Linguagem C/Estrutura de dados Dinamicas.md",
+    "Linguagem C/Alocacao Dinamica de memoria.md",
+    "EDA2-Ribas P3/Busca externa.md",
+    "EDA2-Ribas P3/Sem título.md",
+    "EDA2-Ribas P3/Fluxo maximo.md",
+    "EDA2-Ribas P3/Caminhos minimos de fonte unica.md",
+    "EDA2-Ribas P2/Caminhos minimos de fonte Unica.md",
+    "EDA2-Ribas P3",
+    "EDA2-Ribas P2/Arvores Gerados Minimas.md",
+    "EDA2-Ribas P2/DAG.md",
+    "EDA2-Ribas P2/Grafos Dirigidos.md",
+    "EDA2-Ribas P2/Busca em Grafos.md",
+    "EDA2-Ribas P2/Grafos Introducao.md",
+    "EDA2-Ribas P1/Arvore de Intervalos.md",
+    "EDA2-Ribas P2",
+    "Sem título.md",
+    "EDA2-Ribas P1/Arvore 2-3.md",
+    "EDA2-Ribas P1/Quando escolher cada um do metodos.md",
+    "EDA2-Ribas P1/Metodos de busca.md",
+    "EDA2-Ribas P1/BST.md",
+    "Pasted image 20250411190444.png",
+    "Pasted image 20250411190431.png",
+    "Estrutura de Dados em C",
+    "Pasted image 20250408201548.png",
+    "Pasted image 20250408143818.png",
+    "Pasted image 20250408132152.png",
+    "Pasted image 20250408131849.png",
+    "EDA2-Ribas P1",
+    "Sem título.canvas",
+    "Sem título 1.canvas",
+    "Linguagem C",
+    "EDA2",
+    "Teste/Sem título.canvas",
+    "Teste"
+  ]
+}

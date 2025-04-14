@@ -1,0 +1,2 @@
+- **Funções Hash:** Aprenda a criar e utilizar funções hash para distribuição de dados.
+- **Tratamento de Colisões:** Técnicas como encadeamento (chaining) e endereçamento aberto (open addressing).
