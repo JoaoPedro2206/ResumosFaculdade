@@ -34,3 +34,59 @@
 - `FUNCAO HASH`: Funcao que gera um codigo a ser utilizado como indice de acesso na tabela;
 - `COLISOES`: Ocorre uma colisao quando a funcao de hash gera o mesmo codigo para chaves diferentes;
 - `FATOR DE CARGA`: Quantidade de elementos dividido pelo Tamanho da Tabela;
+---
+### 6. Implementacao da Tabela Hash linear
+```
+#include <stdio.h>
+#include <stdlib.h>
+#define TAM  31 # Tamanho da tabela Hash
+
+# Inicializa o vetor com todas os valores 0;
+void inicializarTabela(int t[]){
+		for(int i = 0; i < TAM; i++)
+		t[i] = 0;
+}
+
+# Funcao para descobrir o indice que vai ser inserido
+int hash(int chave){ 
+	return chave % TAM
+}
+
+# Funcao para inserir um valor na tabela
+void inserir(int t[], int valor){
+	int id = hash(valor);
+	while(t[id] != 0){
+		id = hash(id + 1);
+	}
+	t[id] = valor;
+}
+
+#Funcao que busca um valor na tabela
+int busca(int t[], int chave){
+	int id = hash(chave);
+	while(t[id] != 0){
+		if(t[id] == chave){
+			return t[id];
+		} else {
+			id = hash(id+1);
+		}
+	return 0;
+}
+
+#Funcao para imprimir a tabela
+void imprimir(int t[]){
+	for(int i = 0; i < TAM; i++){
+		printf("%d = %d\n", i, t[i]);
+	}
+
+}
+
+
+}
+int main(){
+
+	int opcao, tabela[TAM]; # Vetor da tabela hash
+	return 0;
+
+}
+```
