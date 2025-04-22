@@ -1,7 +1,0 @@
-- **Representação:**
-    - Lista de adjacência e matriz de adjacência.
-- **Algoritmos Básicos:**
-    - DFS (busca em profundidade) e BFS (busca em largura).
-- **Algoritmos Avançados:**
-    - Estudo de algoritmos como Dijkstra e outros algoritmos para caminhos mínimos.
-- **Aplicações Práticas:** Simulações e resolução de problemas clássicos envolvendo grafos.

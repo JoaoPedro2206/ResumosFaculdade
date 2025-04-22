@@ -1,4 +1,0 @@
-- **Livros e Cursos Online:** Procure cursos específicos sobre algoritmos e estruturas de dados em C.
-- **Leitura de Códigos:** Analise projetos open source escritos em C para ver aplicações reais.
-- **Comunidades e Fóruns:** Participe de grupos e fóruns para tirar dúvidas e compartilhar conhecimentos.
-- **Aprofundamento:** Após dominar os básicos, explore estruturas avançadas (como tries, segment trees, etc.) e técnicas de otimização de algoritmos.

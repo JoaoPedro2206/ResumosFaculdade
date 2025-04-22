@@ -1,3 +1,0 @@
-- **Implementações do Zero:** Crie sua própria biblioteca de estruturas de dados em C.
-- **Desafios de Programação:** Utilize plataformas como HackerRank, LeetCode ou CodeChef para praticar.
-- **Projetos Reais:** Desenvolva pequenos sistemas ou aplicativos que façam uso intensivo de estruturas de dados (por exemplo, um sistema de gerenciamento de cadastros).

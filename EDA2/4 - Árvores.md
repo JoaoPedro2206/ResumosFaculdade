@@ -1,8 +1,0 @@
-- **Árvores Binárias:**
-    - Conceitos básicos e travessias (pré-ordem, in-ordem, pós-ordem).
-- **Árvores de Busca Binária (BST):**
-    - Operações de inserção, busca e remoção.
-- **Árvores Balanceadas:**
-    - Introdução a AVL e Red-Black Trees para manter a eficiência das operações.
-- **Heaps:**
-    - Implementação de min-heap e max-heap, úteis para algoritmos de ordenação (como heapsort).

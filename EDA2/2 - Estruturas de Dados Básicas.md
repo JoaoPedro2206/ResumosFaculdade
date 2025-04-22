@@ -1,5 +1,0 @@
-- **Arrays e Strings:** Conceitos e operações básicas.
-- **Listas Encadeadas:**
-    - _Simples:_ Criação, inserção, remoção e travessia.
-    - _Duplamente encadeadas e circulares:_ Comparar com listas simples e entender quando cada uma é útil.
-- **Prática:** Implemente uma lista encadeada para fixar o conceito.

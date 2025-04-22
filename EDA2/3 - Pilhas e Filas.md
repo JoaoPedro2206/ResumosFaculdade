@@ -1,7 +1,0 @@
-- **Pilhas (Stacks):**
-    - Implementação usando arrays e listas encadeadas.
-    - Conceitos de LIFO (Last In, First Out).
-- **Filas (Queues):**
-    - Implementação simples e circular.
-    - Conceito de FIFO (First In, First Out).
-- **Exercícios:** Resolva problemas clássicos (como verificação de palíndromos ou resolução de expressões matemáticas).
