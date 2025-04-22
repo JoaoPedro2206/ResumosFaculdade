@@ -13,13 +13,40 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Pasted image 20250414191146.png"
+                "file": "Imagens/Colisoes.png"
               },
               "icon": "lucide-image",
-              "title": "Pasted image 20250414191146"
+              "title": "Colisoes"
+            }
+          },
+          {
+            "id": "cd0b16a8b23510fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguagem C/Matrizes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Matrizes"
+            }
+          },
+          {
+            "id": "0ed85891a3c721a1",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Imagens/MemoriaVetor.png"
+              },
+              "icon": "lucide-image",
+              "title": "MemoriaVetor"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,45 +194,46 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "1f83c09bb5216b1e",
+  "active": "cd0b16a8b23510fa",
   "lastOpenFiles": [
-    "Pasted image 20250414190034.png",
-    "Pasted image 20250411190431.png",
+    "Linguagem C/Alocacao Dinamica de memoria.md",
+    "Linguagem C/Estrutura de dados Dinamicas.md",
+    "Linguagem C/Arrays.md",
+    "Imagens/PonteiroDePonteiro.png",
+    "Linguagem C/Trabalhando com varios arquivos.md",
+    "Linguagem C/Tabela Hash.md",
+    "Linguagem C/Structs.md",
+    "Linguagem C/Strings.md",
+    "Linguagem C/Ponteiros.md",
+    "Imagens/MemoriaVetor.png",
+    "Imagens/StructEncadeada.png",
+    "Linguagem C/Pilhas.md",
+    "Linguagem C/Matrizes.md",
+    "Linguagem C/Linguagem C.md",
+    "Linguagem C/Funcoes.md",
+    "Linguagem C/Fila.md",
+    "Imagens/Pasted image 20250411190444.png",
+    "Imagens/Colisoes.png",
+    "Imagens/TabelaHash.png",
+    "Imagens/Espalhamento.png",
+    "Imagens/Matriz.png",
+    "Imagens/Memoria.png",
+    "Imagens",
     "EDA2-Ribas P1/Tabela Hash.md",
     "EDA2-Ribas P1/Skip List.md",
     "EDA2-Ribas P1/Metodos de busca.md",
     "EDA2-Ribas P1/Arvore de Intervalos.md",
     "EDA2-Ribas P1/Arvore 2-3.md",
     "teste.md",
-    "Linguagem C/Tabela Hash.md",
     "Linguagem C/Tabela Hash com Lista Encadeada.md",
-    "Linguagem C/Alocacao Dinamica de memoria.md",
-    "Linguagem C/Pilhas.md",
-    "Linguagem C/Structs.md",
-    "Linguagem C/Trabalhando com varios arquivos.md",
-    "Linguagem C/Strings.md",
-    "Linguagem C/Ponteiros.md",
     "Estrutura de Dados em C/Tipo Abstrato de Dados.md",
-    "Pasted image 20250414191146.png",
-    "Pasted image 20250414185725.png",
-    "Linguagem C/Fila.md",
-    "Linguagem C/Linguagem C.md",
-    "Linguagem C/Arrays.md",
-    "Linguagem C/Funcoes.md",
-    "Linguagem C/Estrutura de dados Dinamicas.md",
     "EDA2-Ribas P3/Busca externa.md",
     "EDA2-Ribas P3/Sem título.md",
     "EDA2-Ribas P3/Fluxo maximo.md",
     "EDA2-Ribas P3/Caminhos minimos de fonte unica.md",
-    "EDA2-Ribas P2/Caminhos minimos de fonte Unica.md",
     "EDA2-Ribas P3",
     "EDA2-Ribas P2",
-    "Pasted image 20250411190444.png",
     "Estrutura de Dados em C",
-    "Pasted image 20250408201548.png",
-    "Pasted image 20250408143818.png",
-    "Pasted image 20250408132152.png",
-    "Pasted image 20250408131849.png",
     "EDA2-Ribas P1",
     "Sem título.canvas",
     "Sem título 1.canvas",

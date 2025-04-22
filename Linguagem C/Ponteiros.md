@@ -171,7 +171,8 @@ int main(){
 	}
 }
 ```
-![[Pasted image 20250408201548.png]]
+![](../Imagens/StructEncadeada.png)
+
 
 ---
 ### 9. Lista concatenada e Funcao que retorna Ponteiro

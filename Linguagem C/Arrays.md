@@ -11,7 +11,7 @@
 ### 2. Vetores em memoria
 
 A memoria do computador e organizada da seguinte forma:
-![[Pasted image 20250408132152.png]]
+![](../Imagens/MemoriaVetor.png)
 
 ---
 ### 3. Manipulando Vetores

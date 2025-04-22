@@ -7,7 +7,7 @@
 
 ---
 ### 2. Matrizes em memoria
-![[Pasted image 20250408143818.png]]
+![](../Imagens/Matriz.png)
 
 ---
 ### 3. Manipulando uma matriz
@@ -70,7 +70,7 @@ int main(){
 	int* -> 43 82 10
 	int* -> 12 47 62
 - Precisa usar ponteiro de ponteiro
-![[Pasted image 20250411190444.png]]
+![Descrição da imagem](../Imagens/PonteiroDePonteiro.png)
 ```
 int main(){
 
