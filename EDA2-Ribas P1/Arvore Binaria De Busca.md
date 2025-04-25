@@ -8,16 +8,20 @@
 #### 1.2 Tipos de Arvores
 
 - Arvore Red Black
-![[RedBlack.png]]
+ ![](../../Imagens/RedBlack.png)
+
 
 - Arvore B
-![[ArvoreB.png]]
+ ![](../../Imagens/ArvoreB.png)
+
 
 - Arvore AVL
-![[ArvoreAVL.png]]
+ ![](../../Imagens/ArvoreAVL.png)
+
 
 - Arvore Binaria
-![[ArvoreBinaria.png]]
+![](../../Imagens/ArvoreBinaria.png)
+
 
 ---
 
@@ -45,24 +49,29 @@
 
 - Para inserir um novo No na arvore, ele faz as comparacoes para saber onde esse No sera inserido, quando chegar em um No que aponta para NULL ira apontar esse No para o No que esta sendo inserido.
 - Arvore antes de inserir o elemento 278:
-![[BST1.png]]
+ ![](../../Imagens/BST1.png)
+
 - Arvore Depois de inserir o elemento 278:
-![[BST2.png]]
+ ![](../../Imagens/BST2.png)
+
 
 ---
 #### 2.4 Remocao
 
 - Faz a busca do elemento que deseja remover, pega o No que esta apontando para esse elemento e aponta para o proximo No da arvore.
 - Arvore antes de Remover o No 389:
-![[BST4.png]]
+ ![](../../Imagens/BST4.png)
+
 - Arvore depois que o No foi removido:
-![[BST3.png]]
+ ![](../../Imagens/BST3.png)
+
 ---
 
 #### 2.5 Printar Elementos da Arvore de Forma Ordenada
 
 - Percorre a arvore de forma recursiva printando o elemento esquerda, raiz e direita, fazendo com que os elementos fiquem de forma ordenada.
-![[BST5.png]]
+ ![](../../Imagens/BST5.png)
+
 
 ---
 
