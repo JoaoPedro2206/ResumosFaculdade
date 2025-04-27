@@ -23,12 +23,28 @@
             "id": "cd0b16a8b23510fa",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Imagens/Red1.png"
+                "file": "EDA2-Ribas P1/Arvore Binaria De Busca.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Red1"
+              "icon": "lucide-file",
+              "title": "Arvore Binaria De Busca"
+            }
+          },
+          {
+            "id": "2602a7873d101548",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EDA2-Ribas P1/Arvore Binaria De Busca.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Arvore Binaria De Busca"
             }
           },
           {
@@ -44,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -192,47 +208,46 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "cd0b16a8b23510fa",
+  "active": "2602a7873d101548",
   "lastOpenFiles": [
-    "Imagens/Red2.png",
-    "Imagens/Red1.png",
-    "EDA2-Ribas P1/Arvore Red-Black.md",
+    "EDA2-Ribas P1/Arvore 2-3.md",
     "EDA2-Ribas P1/Arvore Binaria De Busca.md",
+    "EDA2-Ribas P1/Arvore Red-Black.md",
     "EDA2-Ribas P1/Skip List.md",
+    "EDA2-Ribas P1/Tabela de Simbolos.md",
     "EDA2-Ribas P1/Tabela Hash.md",
-    "Imagens/Red13.png",
-    "Imagens/Red12.png",
-    "Imagens/Red11.png",
-    "Imagens/Red10.png",
+    "Sem título.md",
+    "Linguagem C/Tabela Hash.md",
+    "Linguagem C/Tabela Hash 2.md",
+    "Imagens/SL2.png",
+    "Linguagem C/Trabalhando com varios arquivos.md",
+    "Imagens/SL3.png",
+    "Imagens/SL5.png",
+    "Imagens/SL4.png",
+    "Imagens/SL1.png",
+    "Requisitos De Software/Unidade 1/Capitulo 3.md",
+    "Requisitos De Software/Unidade 1/Capitulo 1.md",
+    "Linguagem C/Linguagem C.md",
+    "Linguagem C/Arrays.md",
+    "Linguagem C/Alocacao Dinamica de memoria.md",
+    "Imagens/Pasted image 20250423182443.png",
+    "EDA2-Ribas Exercicios",
     "Imagens/Red9.png",
     "Imagens/Red8.png",
     "Imagens/Red7.png",
-    "EDA2-Ribas Exercicios",
-    "EDA2-Ribas P1/Tabela de Simbolos.md",
-    "EDA2-Ribas P1/Arvore 2-3.md",
-    "Pasted.md",
     "Imagens/Red6.png",
-    "Imagens/Red5.png",
-    "Requisitos De Software/Unidade 1/Capitulo 1.md",
     "EDA2-Ribas P1/Quando escolher cada um do metodos.md",
     "EDA2-Ribas P1/Metodos de busca.md",
     "EDA2-Ribas P1/Arvore de Intervalos.md",
-    "Requisitos De Software/Unidade 1/Capitulo 3.md",
     "Requisitos De Software/Unidade 1/Capitulo 2.md",
     "Requisitos De Software/Unidade 1/Capitulo 4.md",
-    "Linguagem C/Arrays.md",
     "Requisitos De Software/Unidade 1",
     "Linguagem C/Matrizes.md",
     "Requisitos De Software",
-    "Linguagem C/Alocacao Dinamica de memoria.md",
     "Linguagem C/Estrutura de dados Dinamicas.md",
-    "Linguagem C/Trabalhando com varios arquivos.md",
-    "Linguagem C/Tabela Hash.md",
     "Linguagem C/Structs.md",
     "Linguagem C/Strings.md",
     "Linguagem C/Ponteiros.md",
-    "Linguagem C/Pilhas.md",
-    "Linguagem C/Linguagem C.md",
     "Imagens",
     "EDA2-Ribas P3",
     "EDA2-Ribas P2",

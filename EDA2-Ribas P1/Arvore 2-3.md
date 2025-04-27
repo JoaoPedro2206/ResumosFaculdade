@@ -1,0 +1,7 @@
+- Nos simples, duplos
+- Nos triplos temporarios
+- Operacoes de busca de insercao `O(nlogn)`
+- Altura cresce com a insercao de novas chaves da arvore.
+- Cada No armazena mais de 1 chave.
+- Toda Arvore 2-3 e perfeitamente balanceada: todos os links NULL estao no mesmo nivel.
+- 
