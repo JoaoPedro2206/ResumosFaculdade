@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EDA2-Ribas P2/Busca em Grafos.md",
+                "file": "EDA2-Ribas P2/Grafos Dirigidos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Busca em Grafos"
+              "title": "Grafos Dirigidos"
             }
           },
           {
@@ -196,10 +196,12 @@
   },
   "active": "4501e81c4eac4724",
   "lastOpenFiles": [
+    "EDA2-Ribas P2/Grafos Implementacao.md",
+    "EDA2-Ribas P2/Busca em Grafos.md",
     "EDA2-Ribas P2/Grafos Dirigidos.md",
+    "EDA2-Ribas P2/DAG.md",
     "Imagens/G40.png",
     "Imagens/Pasted image 20250423182443.png",
-    "EDA2-Ribas P2/Busca em Grafos.md",
     "Imagens/G47.png",
     "Imagens/G46.png",
     "Imagens/G45.png",
@@ -208,9 +210,7 @@
     "Imagens/G42.png",
     "Imagens/G41.png",
     "Imagens/G39.png",
-    "EDA2-Ribas P2/DAG.md",
     "EDA2-Ribas P2/Grafos Representacao.md",
-    "EDA2-Ribas P2/Grafos Implementacao.md",
     "EDA2-Ribas P2/Grafos Introducao.md",
     "FAC/Conversao de Base.md",
     "EDA2-Ribas P1/Skip List.md",
