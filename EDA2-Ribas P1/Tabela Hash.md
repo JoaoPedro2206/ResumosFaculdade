@@ -308,7 +308,9 @@ void HTinsert(Item item){
 	Key v = Key(item);
 	int i = hash(v,M);
 	int k = hashTwo(v,M);
-	while(!null(i)) i = (i+k) % M;
+	while(!null(i)){
+		i = (i+k) % M;
+	} 
 	ht[i] = item;
 	n++;
 }

@@ -4,63 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d4a82c6b8f67dc02",
+        "id": "9f839b435472cd31",
         "type": "tabs",
         "children": [
           {
-            "id": "1f83c09bb5216b1e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Imagens/Colisoes.png"
-              },
-              "icon": "lucide-image",
-              "title": "Colisoes"
-            }
-          },
-          {
-            "id": "cd0b16a8b23510fa",
+            "id": "9a1a79b3a5707ec9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EDA2-Ribas P1/Arvore Binaria De Busca.md",
+                "file": "EDA2-Ribas P2/Grafos Representacao.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arvore Binaria De Busca"
-            }
-          },
-          {
-            "id": "2602a7873d101548",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EDA2-Ribas P1/Arvore Binaria De Busca.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Arvore Binaria De Busca"
-            }
-          },
-          {
-            "id": "0ed85891a3c721a1",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Imagens/MemoriaVetor.png"
-              },
-              "icon": "lucide-image",
-              "title": "MemoriaVetor"
+              "title": "Grafos Representacao"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,46 +169,48 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "2602a7873d101548",
+  "active": "9a1a79b3a5707ec9",
   "lastOpenFiles": [
-    "EDA2-Ribas P1/Arvore 2-3.md",
-    "EDA2-Ribas P1/Arvore Binaria De Busca.md",
-    "EDA2-Ribas P1/Arvore Red-Black.md",
+    "EDA2-Ribas P2/Grafos Implementacao.md",
+    "EDA2-Ribas P2/Grafos Introducao.md",
+    "Imagens/G1.png",
+    "FAC/Conversao de Base.md",
     "EDA2-Ribas P1/Skip List.md",
-    "EDA2-Ribas P1/Tabela de Simbolos.md",
+    "EDA2-Ribas P2/Grafos Representacao.md",
+    "EDA2-Ribas P2/Busca em Grafos.md",
+    "Imagens/G22.png",
+    "Imagens/G21.png",
+    "Imagens/G20.png",
+    "Imagens/G19.png",
+    "Imagens/G18.png",
+    "Imagens/G17.png",
+    "Imagens/G16.png",
+    "Imagens/G15.png",
+    "Imagens/G14.png",
+    "EDA2-Ribas P2/Grafos Dirigidos.md",
+    "EDA2-Ribas P2/DAG.md",
+    "EDA2-Ribas P2/Caminhos minimos de fonte Unica.md",
+    "EDA2-Ribas P2/Arvores Gerados Minimas.md",
+    "EDA2-Ribas P1/Arvore 2-3.md",
+    "EDA2-Ribas P1/Arvore Red-Black.md",
+    "EDA2-Ribas P1/Arvore Binaria De Busca.md",
     "EDA2-Ribas P1/Tabela Hash.md",
+    "FAC/Sem título",
+    "FAC",
     "Sem título.md",
+    "Linguagem C/Alocacao Dinamica de memoria.md",
+    "EDA2-Ribas P1/Tabela de Simbolos.md",
     "Linguagem C/Tabela Hash.md",
     "Linguagem C/Tabela Hash 2.md",
-    "Imagens/SL2.png",
     "Linguagem C/Trabalhando com varios arquivos.md",
-    "Imagens/SL3.png",
-    "Imagens/SL5.png",
-    "Imagens/SL4.png",
-    "Imagens/SL1.png",
     "Requisitos De Software/Unidade 1/Capitulo 3.md",
     "Requisitos De Software/Unidade 1/Capitulo 1.md",
     "Linguagem C/Linguagem C.md",
     "Linguagem C/Arrays.md",
-    "Linguagem C/Alocacao Dinamica de memoria.md",
-    "Imagens/Pasted image 20250423182443.png",
     "EDA2-Ribas Exercicios",
-    "Imagens/Red9.png",
-    "Imagens/Red8.png",
-    "Imagens/Red7.png",
-    "Imagens/Red6.png",
     "EDA2-Ribas P1/Quando escolher cada um do metodos.md",
-    "EDA2-Ribas P1/Metodos de busca.md",
-    "EDA2-Ribas P1/Arvore de Intervalos.md",
-    "Requisitos De Software/Unidade 1/Capitulo 2.md",
-    "Requisitos De Software/Unidade 1/Capitulo 4.md",
     "Requisitos De Software/Unidade 1",
-    "Linguagem C/Matrizes.md",
     "Requisitos De Software",
-    "Linguagem C/Estrutura de dados Dinamicas.md",
-    "Linguagem C/Structs.md",
-    "Linguagem C/Strings.md",
-    "Linguagem C/Ponteiros.md",
     "Imagens",
     "EDA2-Ribas P3",
     "EDA2-Ribas P2",
@@ -255,8 +218,6 @@
     "EDA2-Ribas P1",
     "Sem título.canvas",
     "Sem título 1.canvas",
-    "Linguagem C",
-    "EDA2",
     "Teste/Sem título.canvas"
   ]
 }
