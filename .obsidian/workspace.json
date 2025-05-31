@@ -11,17 +11,42 @@
             "id": "9a1a79b3a5707ec9",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Imagens/G24.png"
+              },
+              "icon": "lucide-image",
+              "title": "G24"
+            }
+          },
+          {
+            "id": "4501e81c4eac4724",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "EDA2-Ribas P2/Grafos Representacao.md",
+                "file": "EDA2-Ribas P2/Busca em Grafos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Grafos Representacao"
+              "title": "Busca em Grafos"
+            }
+          },
+          {
+            "id": "f264054c0c44c626",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Imagens/G23.png"
+              },
+              "icon": "lucide-image",
+              "title": "G23"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,26 +194,27 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "9a1a79b3a5707ec9",
+  "active": "4501e81c4eac4724",
   "lastOpenFiles": [
+    "Imagens/G36.png",
+    "Imagens/G24.png",
+    "Imagens/G31.png",
+    "EDA2-Ribas P2/Busca em Grafos.md",
+    "Imagens/G35.png",
+    "Imagens/G34.png",
+    "Imagens/G33.png",
+    "Imagens/G32.png",
+    "Imagens/G30.png",
+    "Imagens/G29.png",
+    "Imagens/G28.png",
+    "Imagens/G27.png",
+    "EDA2-Ribas P2/DAG.md",
+    "EDA2-Ribas P2/Grafos Dirigidos.md",
+    "EDA2-Ribas P2/Grafos Representacao.md",
     "EDA2-Ribas P2/Grafos Implementacao.md",
     "EDA2-Ribas P2/Grafos Introducao.md",
-    "Imagens/G1.png",
     "FAC/Conversao de Base.md",
     "EDA2-Ribas P1/Skip List.md",
-    "EDA2-Ribas P2/Grafos Representacao.md",
-    "EDA2-Ribas P2/Busca em Grafos.md",
-    "Imagens/G22.png",
-    "Imagens/G21.png",
-    "Imagens/G20.png",
-    "Imagens/G19.png",
-    "Imagens/G18.png",
-    "Imagens/G17.png",
-    "Imagens/G16.png",
-    "Imagens/G15.png",
-    "Imagens/G14.png",
-    "EDA2-Ribas P2/Grafos Dirigidos.md",
-    "EDA2-Ribas P2/DAG.md",
     "EDA2-Ribas P2/Caminhos minimos de fonte Unica.md",
     "EDA2-Ribas P2/Arvores Gerados Minimas.md",
     "EDA2-Ribas P1/Arvore 2-3.md",
