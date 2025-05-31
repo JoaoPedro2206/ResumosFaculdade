@@ -28,7 +28,7 @@
 - Algoritmo de Dijkstra:
 	- Resolve esse problema para grafos *dirigidos* ou *nao dirigidos* com arestas de peso *nao negativo*.
 ---
-### 2. DFS
+### 2. DFS - Busca em Profundidade
 
 - **Regra 1**: Visite um No adjacente nao visitado, marqui-o e coloque-o na pilhas
 - **Regra 2**: Se nao puder seguir a regra 1 retire um No da pilha.
@@ -192,9 +192,121 @@ void DFS(Grafo* grafo, int vertice) {
 ```
 
 --- 
-### 3. BFS
+### 3. BFS - Busca em Largura
+- Partindo de um vertice inicial, ela explora todos os vertices vizinhos. Em seguida, para cada vertice vizinho, ela repete esse processo, visitando os vertices ainda inexplorados.
+- **Regra 1**: Visite um No adjacente nao visitado, marque-o e coloque-o na fila.
+- **Regra 2**: Se nao puder seguir a Regra 1 remova um no da gila e torno-o o No atual.
+- **Regra 3**: Se nao puder executar a Regra 2 porque a fila esta vazia, terminou.
 
----
+- Exemplo:
+- **OBS: Desconsidere a parte do grado de Urziceni para frente.**
+- Passo 1: Marque o No inicial como visitado e coloque na fila:
+![](../Imagens/G37.png)
+- Passo 2: Coloque todas as cidades adjacentes a Arad no final da fila e remova Arad da Fila:
+![](../Imagens/G38.png)
+- Passo 3: Como Zerind e o primeiro da Fila, pegue os adjacentes dele e coloque no final da Fila e depois retire Zerind:
+![](../Imagens/G39.png)
+- Passo 4: Va para o primeiro da Fila, nessa caso Sibiu, pegue as cidades adjacentes e coloque no final da fila tirando Sibiu da fila:
+![](../Imagens/G40.png)
+- Passo 5: Va para o primeiro da fila, nessa caso Timisoara, coloque as cidades adjacentes no final da fila e tire Timisoara:
+![](../Imagens/G41.png)
+- Passo 6: Va para o primeiro da fila, nessa caso Oradea, como as cidades adjacentes a essa cidade ja foram visitadas apenas tira ela da Fila:
+![](../Imagens/G42.png)
+- Passo 7: Va para o primeiro da fila, nessa caso Fagaras, coloque as cidades adjacentes no final da fila e tire Fagaras:
+![](../Imagens/G43.png)
+- Passo 8: Va para o primeiro da fila, nessa caso Rimnicu, coloque as cidades adjacentes no final da fila e tire Rimnicu:
+![](../Imagens/G44.png)
+- Passo 9: Va para o primeiro da fila, nessa caso Lugoj, coloque as cidades adjacentes no final da fila e tire Lugoj:
+![](../Imagens/G45.png)
+- Passo 10: Va para o primeiro da fila, nessa caso Bucharest, coloque as cidades adjacentes no final da fila e tire Bucharest:
+![](../Imagens/G46.png)
+- Passo 11: Va para o primeiro da fila, nessa caso Craiova, coloque as cidades adjacentes no final da fila e tire Craiova:
+![](../Imagens/G47.png)
+- Passo 12: Como Pitesti nao tem nenhum adjacente nao visitado tire da Fila.
+- Passo 13: Como Mehadia nao tem nenhum adjacente nao visitado tire da Fila.
+- Passo 14: Como Giurgiu nao tem nenhum adjacente nao visitado tire da Fila.
+- Passo 15: Como Dobreta nao tem nenhum adjacente nao visitado tire da Fila.
+- Passo 16: Retirando Dobreta a Fila fica vazia, assim acabando a Busca.
+
+- Funcao para realizar busca em Largura em Grafos com lista de adjacencia
+```
+void BFS(Grafo* grafo, int verticeInicial) {
+
+    // Criar uma fila para BFS
+    int fila[1000]; // Tamanho arbitrário
+    int frente = 0, fim = 0;
+
+    // Reiniciar o array de visitados
+    for (int i = 0; i < grafo->numVertices; i++) {
+        grafo->visitado[i] = 0;
+    }
+
+    // Marcar o vértice atual como visitado e enfileirá-lo
+    grafo->visitado[verticeInicial] = 1;
+    fila[fim++] = verticeInicial;
+
+    // Loop para BFS
+    while (frente != fim) {
+
+        // Desenfileirar um vértice e imprimi-lo
+        int verticeAtual = fila[frente++];
+        printf("%d ", verticeAtual);
+
+        // Obter todos os vértices adjacentes do vértice desenfileirado
+        No* temp = grafo->listaAdj[verticeAtual].cabeca;
+
+        while (temp) {
+            int adjacente = temp->vertice;
+
+            // Se o adjacente não foi visitado, marcá-lo e enfileirá-lo
+            if (!grafo->visitado[adjacente]) {
+                grafo->visitado[adjacente] = 1;
+                fila[fim++] = adjacente;
+            }
+            temp = temp->proximo;
+        }
+    }
+}
+```
+
+- Funcao para realizar Busca em largura em grafos com Matriz de adjacencia
+```
+void BFS(Grafo* grafo, int verticeInicial) {
+
+    // Criar uma fila para BFS
+    int fila[1000]; // Tamanho arbitrário
+    int frente = 0, fim = 0;
+
+    // Reiniciar o array de visitados
+    for (int i = 0; i < grafo->numVertices; i++) {
+        grafo->visitado[i] = 0;
+
+    }
+
+    // Marcar o vértice inicial como visitado e enfileirá-lo
+    grafo->visitado[verticeInicial] = 1;
+    fila[fim++] = verticeInicial;
+
+    // Loop para BFS
+    while (frente != fim) {
+
+        // Desenfileirar um vértice e imprimi-lo
+        int verticeAtual = fila[frente++];
+        printf("%d ", verticeAtual);
+
+        // Percorrer todos os vértices adjacentes ao vértice atual
+        for (int i = 0; i < grafo->numVertices; i++) {
+            // Se existe uma aresta e o vértice ainda não foi visitado
+            if (grafo->matriz[verticeAtual][i] && !grafo->visitado[i]) {
+                grafo->visitado[i] = 1;
+                fila[fim++] = i;
+            }
+        }
+    }
+}
+```
+
+- ---
 ### 4. Comparacao
 
 | **Aspecto**                | **BFS**                                       | **DFS**                                                        |
