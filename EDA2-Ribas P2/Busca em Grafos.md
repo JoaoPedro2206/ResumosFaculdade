@@ -195,7 +195,7 @@ void DFS(Grafo* grafo, int vertice) {
 ### 3. BFS - Busca em Largura
 - Partindo de um vertice inicial, ela explora todos os vertices vizinhos. Em seguida, para cada vertice vizinho, ela repete esse processo, visitando os vertices ainda inexplorados.
 - **Regra 1**: Visite um No adjacente nao visitado, marque-o e coloque-o na fila.
-- **Regra 2**: Se nao puder seguir a Regra 1 remova um no da gila e torno-o o No atual.
+- **Regra 2**: Se nao puder seguir a Regra 1 remova um no da fila e torne o No atual.
 - **Regra 3**: Se nao puder executar a Regra 2 porque a fila esta vazia, terminou.
 
 - Exemplo:
@@ -314,7 +314,7 @@ void BFS(Grafo* grafo, int verticeInicial) {
 | **Estrutura da Fronteira** | Fila                                          | Pilha/Recursao                                                 |
 | **Ordem de exploracao**    | Por Distancia(Nivel-a-Nivel)                  | Vai "ai fundo" antes de voltar                                 |
 | **Distancia minima**       | Sim (em numero de arestas)                    | Nao                                                            |
-| **Deteccao de Ciclos**     | Requer marcaacoes extras                      | Natural                                                        |
+| **Deteccao de Ciclos**     | Requer marcacoes extras                       | Natural                                                        |
 | **Aplicacoes Tipicas**     | Caminho minimo sem peso, calculo de distancia | Componentes, ciclos, ordenacao topologica, pontes/articulacoes |
 | **Uso de Memoria**         | O(V) + Fila(Pico <= V)                        | O(V) + Pilha (pico <=V)                                        |
 | **Pior Caso Pratico**      | Grafos "largos" com muitos niveis             | Grafos "profundos" com cadeias longas                          |

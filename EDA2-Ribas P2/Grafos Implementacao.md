@@ -6,8 +6,6 @@ typedef struct No {
 
     int vertice;         // Vértice de destino
 
-    int peso;            // Peso da aresta
-
     struct No* proximo;  // Ponteiro para o próximo nó
 
 } No;

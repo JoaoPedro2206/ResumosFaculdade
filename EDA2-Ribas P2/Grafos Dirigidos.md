@@ -26,12 +26,12 @@ int alcancavel(Grafo *gr, int V1, int V2){
 		// Desenfilera o proximo vertice
 		int u = fila[inicio++];
 		// Se chegamos em V2, liberamos memoria e retorna verdadeiro
-		if (V2 == V1){
+		if (V2 == u){
 			free(visitado);
 			free(fila);
 			return 1;
 		}
-
+		
 		// Percorre todos os vizinhos de u
 		for(No *p = gr->adj[u]; p != NULL; p = p->proximo){
 			// se o vizinho ainda nao foi visitado
