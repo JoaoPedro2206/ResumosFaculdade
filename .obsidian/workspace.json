@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EDA2-Ribas P3/Dijkstra Com Fila de Prioridade.md",
+                "file": "EDA2-Ribas P3/Bellman-Ford.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dijkstra Com Fila de Prioridade"
+              "title": "Bellman-Ford"
             }
           },
           {
@@ -210,9 +210,9 @@
   },
   "active": "7dfb803a320c533b",
   "lastOpenFiles": [
+    "EDA2-Ribas P3/Dijkstra Com Fila de Prioridade.md",
     "EDA2-Ribas P3/Dijkstra Ingenuo.md",
     "Imagens/D10.png",
-    "EDA2-Ribas P3/Dijkstra Com Fila de Prioridade.md",
     "Imagens/D17.png",
     "Pasted image 20250707175810.png",
     "Imagens/D16.png",
