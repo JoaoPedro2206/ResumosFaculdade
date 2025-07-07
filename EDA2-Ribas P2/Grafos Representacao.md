@@ -1,7 +1,7 @@
 ### 1. Representacao de Grafos
 - Duas abordagens sao muito utilizadas:
 	- **Matriz de Adjacencia**
-	- **Lista de Adjacencia**
+	- **Lista de Adjacencia**a
 - Qual e a representacao que deve ser utilizada?
 	- Depende da aplicacao!
 	- Grafos muito esparsos melhor usar lista de adjacencia.
