@@ -120,17 +120,21 @@ bool GRAPHcptBF(Graph G, int inicial, int *pa, int *dist){
 						Queueput(a->v);
 						onqueue[a->v] = true;
 					}
-					
-				
 				}
 			}
+		}
+		else{
+			if(Queueempty()) return true;
+			K++;
+			if(K >= G->V) return false;
+			Queueput(G->V);
+			for(int t = 0; t < G->V; t++){
+				onqueue[t] = false;
+			}			
 		}
 	
 	
 	}
-
-
-
 }
 ```
 
