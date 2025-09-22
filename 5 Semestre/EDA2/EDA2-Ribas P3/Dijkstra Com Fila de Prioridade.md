@@ -136,18 +136,18 @@ Isso reduz a complexidade total do algoritmo para `O((V + E) log V)`, muito melh
 
 ### 4. Execucacao Passo a Passo
 
-![](../Imagens/D10.png)
-![](../Imagens/D11.png)
+![](D10.png)
+![](D11.png)
 
 - Iteracao 1
-![](../Imagens/D12.png)
+![](D12.png)
 - Iteracao 2:
-![](../Imagens/D13.png)
+![](D13.png)
 - Iteracao 3:
-![](../Imagens/D17.png)
+![](D17.png)
 - Iteracao 4:
-![](../Imagens/D16.png)
+![](D16.png)
 - Iteracao 5: 
-![](../Imagens/D15.png)
+![](D15.png)
 - Iteracao 6
-![](../Imagens/D14.png)
+![](D14.png)

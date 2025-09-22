@@ -12,15 +12,15 @@
 	- Alto custo computacional, `O(N^2)`.
 - Uma aresta e representada por uma *marca* na posicao (i, j) da matriz.
 	- Aresta liga o vertice i ao j.
-![](../Imagens/G20.png)
+![](G20.png)
 ---
 ### 3. Lista de Adjacencia
 
-![](../Imagens/G21.png)
+![](G21.png)
  - Cada vertice guarda a informacao de com quem esta se ligando e um ponteiro.
  - Para cada aresta criada sera criado um novo ponteiro e um valor indicando a proximo vertice.
  - A partir de um certo numero de conexoes nao vale a pena, pois torna computacionalmente complicado.
-![](../Imagens/G22.png)
+![](G22.png)
 ---
 ### 4. Lista X Matriz
 

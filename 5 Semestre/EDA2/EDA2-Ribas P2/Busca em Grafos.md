@@ -37,31 +37,31 @@
 - Exemplo Passo a Passo:
 - **OBS: Desconsidere a parte do grado de Urziceni para frente.**
 - Passo 1: Marca como visitado a cidade Arad e coloca ela no topo da pilha.
-![](../imagens/G23.png)
+![](G23.png)
 - Passo 2: Escolha uma cidade adjacente a Arad, marque-a como visitada e adicione no topo da pilha:
-![](../Imagens/G24.png)
+![](G24.png)
 - Passo 3: Escolha uma cidade adjacente a Zerind, como Arad ja foi visitado va para Oradea, marque-a como visitada e adicione no topo da pilha:
-![](../Imagens/G25.png)
+![](G25.png)
 - Passo 4: Escolha uma cidade adjacente a Oradea, como Zerind ja foi visitada va para Sibiu, marque-a como visitada e coloque no topo da pilha.
-![](../Imagens/G26.png)
+![](G26.png)
 - Passo 5: Escolha uma cidade adjacente a Sibiu, nesse caso Fagara, marque-a como visitada e coloque no topo da pilha:
-![](../Imagens/G27.png)
+![](G27.png)
 - Passo 6: Escolha uma cidade adjacente de Fagara, nesse caso Bucharest, marque-a e coloque no topo da pilha:
-![](../Imagens/G28.png)
+![](G28.png)
 - Passo 7: Escolha uma cidade adjacente a bucharest, nesse caso Pitesti, marque-a como visitada e coloque no topo da pilha:
-![](../Imagens/G29.png)
+![](G29.png)
 - Passo 8: Escolha uma cidade adjacente a Pitesti, nesse caso Rimnicu, marque-a como visitada e coloque no topo da pilha:
-![](../Imagens/G30.png)
+![](G30.png)
 - Passo 9: Escolha uma cidade adjacente a Rimnicu, nesse caso Craiova, marque-a como visitada e coloque no topo da pilha:
-![](../Imagens/G31.png)
+![](G31.png)
 - Passo 10: Escolha uma cidade adjacente a Craiova, nesse caso Dobreta, marque-a como visitada e coloque no topo da pilha:
-![](../Imagens/G32.png)
+![](G32.png)
 - Passo 11: Escolha uma cidade adjacente a Dobreta, nesse caso Mehadia,marque-a como visitada e coloque no topo da pilha:
-![](../Imagens/G33.png)
+![](G33.png)
 - Passo 11: Escolha uma cidade adjacente a Mehadia, nesse caso Lugoj ,marque-a como visitada e coloque no topo da pilha:
-![](../Imagens/G34.png)
+![](G34.png)
 - Passo 12: Escolha uma cidade adjacente a Lugoj, nesse caso Timisoara, marque-a como visitada e coloque no topo da pilha:
-![](../Imagens/G35.png)
+![](G35.png)
 - Passo 13: Como Timisoara nao tem cidades adjacentes nao visitadas, desempilha da lista.
 - Passo 14: Como Lugoj nao tem cidades adjacentes nao visitadas, desempilha da lista.
 - Passo 15: Como Mehadia nao tem cidades adjacentes nao visitadas, desempilha da lista.
@@ -70,7 +70,7 @@
 - Passo 18: Como Rimnicu nao tem cidades adjacentes nao visitadas, desempilha da lista.
 - Passo 19: Como Pitesti nao tem cidades adjacentes nao visitadas, desempilha da lista.
 - Passo 20: Como Bucharest tem Giurgiu como adjacente, marque-a coloque na pilha:
-![](../Imagens/G36.png)
+![](G36.png)
 
 - Passo 21: Como Giurgiu nao tem cidades adjacentes nao visitadas, desempilha da lista.
 - Passo 22: Como Bucharest nao tem cidades adjacentes nao visitadas, desempilha da lista.
@@ -201,27 +201,27 @@ void DFS(Grafo* grafo, int vertice) {
 - Exemplo:
 - **OBS: Desconsidere a parte do grado de Urziceni para frente.**
 - Passo 1: Marque o No inicial como visitado e coloque na fila:
-![](../Imagens/G37.png)
+![](G37.png)
 - Passo 2: Coloque todas as cidades adjacentes a Arad no final da fila e remova Arad da Fila:
-![](../Imagens/G38.png)
+![](G38.png)
 - Passo 3: Como Zerind e o primeiro da Fila, pegue os adjacentes dele e coloque no final da Fila e depois retire Zerind:
-![](../Imagens/G39.png)
+![](G39.png)
 - Passo 4: Va para o primeiro da Fila, nessa caso Sibiu, pegue as cidades adjacentes e coloque no final da fila tirando Sibiu da fila:
-![](../Imagens/G40.png)
+![](G40.png)
 - Passo 5: Va para o primeiro da fila, nessa caso Timisoara, coloque as cidades adjacentes no final da fila e tire Timisoara:
-![](../Imagens/G41.png)
+![](G41.png)
 - Passo 6: Va para o primeiro da fila, nessa caso Oradea, como as cidades adjacentes a essa cidade ja foram visitadas apenas tira ela da Fila:
-![](../Imagens/G42.png)
+![](G42.png)
 - Passo 7: Va para o primeiro da fila, nessa caso Fagaras, coloque as cidades adjacentes no final da fila e tire Fagaras:
-![](../Imagens/G43.png)
+![](G43.png)
 - Passo 8: Va para o primeiro da fila, nessa caso Rimnicu, coloque as cidades adjacentes no final da fila e tire Rimnicu:
-![](../Imagens/G44.png)
+![](G44.png)
 - Passo 9: Va para o primeiro da fila, nessa caso Lugoj, coloque as cidades adjacentes no final da fila e tire Lugoj:
-![](../Imagens/G45.png)
+![](G45.png)
 - Passo 10: Va para o primeiro da fila, nessa caso Bucharest, coloque as cidades adjacentes no final da fila e tire Bucharest:
-![](../Imagens/G46.png)
+![](G46.png)
 - Passo 11: Va para o primeiro da fila, nessa caso Craiova, coloque as cidades adjacentes no final da fila e tire Craiova:
-![](../Imagens/G47.png)
+![](G47.png)
 - Passo 12: Como Pitesti nao tem nenhum adjacente nao visitado tire da Fila.
 - Passo 13: Como Mehadia nao tem nenhum adjacente nao visitado tire da Fila.
 - Passo 14: Como Giurgiu nao tem nenhum adjacente nao visitado tire da Fila.

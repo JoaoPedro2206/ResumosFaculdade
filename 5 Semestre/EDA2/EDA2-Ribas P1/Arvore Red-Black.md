@@ -15,7 +15,7 @@
 - Todo no folha(NULL) e **Preto**.
 - Se um No e **Vermelho**, entao os seus filhos sao **Pretos**, ou seja, nao existem nos vermelhos consecutivos.
 - Para cada No, todos os caminhos desse No para os Nos folhas descendentes contem o mesmo numero de Nos **Pretos**.
-![](../Imagens/Red1.png)
+![](Red1.png)
 ---
 #### AVL x Red-Black:
 
@@ -33,13 +33,13 @@
 #### Arvore Red-Black caida para a Esquerda(LLRB)
 
 - E uma variante da arvore Red-Black que garante a mesma complexidade de operacoes, mas possui uma implementacao mais simples na insercao e remocao dos Nos.
-![](../Imagens/Red2.png)
+![](Red2.png)
 - Satisfaz todas as propriedades da Red-Black convencional
 - Possui uma propriedade extra: se um No e **Vermelho**, entao ele e o **filho esquerdo** do seu pai.
 - Essa propriedade confere o seu aspecto de **caida para a esquerda**: os nos vermelhos sempre sao filho a esquerda
 - Sua implementacao corresponde a implementacao de uma arvore 2-3 (nao e um arvore binaria).
-![Arvore Red-Black caida para a Esquerda](../Imagens/Red3.png)
-![Arvore 2-3](../Imagens/Red4.png)
+![Arvore Red-Black caida para a Esquerda](Red3.png)
+![Arvore 2-3](Red4.png)
 - Numa arvore 2-3, cada no interno pode armazenar um ou dois valores e, dependendo da quantidade de valores armazenados, ter dois (um valor) ou tres (dois valores) filhos.
 - Funcionamento igual ao da arvore binaria de busca. No caso de 3 sub-arvores, na sub-arvore do meio se encontram os elementos que sao **maiores** do que o **primeiro**, mas **menores** do que o **segundo** valor do No pai.
 - Sua implementacao corresponde a implementacao de uma arvore 2-3 se considerarmos que o No **Vermelho** sera sempre um valor **menor** de um No contendo **dois valores** e 3 **Sub-Arvores**.
@@ -111,7 +111,7 @@ NoAvr* rotacionaEsquerda(NoAvr *raiz){
 	return B;
 }
 ```
-![](../Imagens/Red5.png)
+![](Red5.png)
 
 ```
 # Rotacao a Direita
@@ -128,7 +128,7 @@ NoAvr* rotacionaDireita(NoAvr *raiz){
 	return B;
 }
 ```
-![](../Imagens/Red6.png)
+![](Red6.png)
 
 ---
 #### Mover os Nos Vermelhos
@@ -155,7 +155,7 @@ NoAvr* move2EsqRED(NoAvr *raiz){
 	return raiz;
 }
 ```
-![](../Imagens/Red7.png)
+![](Red7.png)
 
 ```
 # Mover um No vermelho para a direita
@@ -173,7 +173,7 @@ NoAvr* move2DirRED(NoAvr *raiz){
 
 }
 ```
-![](../Imagens/Red8.png)
+![](Red8.png)
 
 ```
 # Arrumar o balanceamento
@@ -263,8 +263,8 @@ int inserir(NoAvr *raiz, int valor){
 }
 ```
 
-![](../Imagens/Red9.png)![](../Imagens/Red10.png)
-![](../Imagens/Red11.png)
+![](Red9.png)![](Red10.png)
+![](Red11.png)
 
 ---
 #### Remocao em uma Arvore Red-Black
@@ -358,4 +358,4 @@ int remove(NoAvr *raiz, int valor){
 }
 ```
 
-![](../Imagens/Red12.png)![](../Imagens/Red13.png)
+![](Red12.png)![](Red13.png)

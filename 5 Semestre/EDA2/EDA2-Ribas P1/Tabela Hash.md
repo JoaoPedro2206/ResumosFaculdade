@@ -6,14 +6,14 @@
 - Usa os ultimos dois digitos das chaves para verificar o indice no vetor, isso faz com que evite desperdicio de memoria;
 	- `chave % 100` Funcao hash ou funcao de espalhamento;
 - As chaves hash sao unicas;
-- ![Descrição da imagem](../Imagens/TabelaHash.png)
+- ![Descrição da imagem](TabelaHash.png)
 
 ---
 ### 2. Funcao Hash
 - Pega o elemento que quer inserir e pega o resto da divisao com alguma numero;
 - O resto sera a chave Hash, ou seja, o indice que o elemento vai ser inserido no vetor
 - `Chave % <tam_tabelaHash>`
-- ![Descrição da imagem](../Imagens/Espalhamento.png)
+- ![Descrição da imagem](Espalhamento.png)
 
 ---
 ### 3. Tratamento de colisoes
@@ -33,7 +33,7 @@
 - Ao inserir o indice do vetor apontara para um lista encadeada com o valor inserido
 - se houver colisao, coloca o numero como o proximo da lista encadeada;
 - Usa muita memoria, devido a cada indice do vetor ser uma lista encadeada.
-- ![Descrição da imagem](../Imagens/Colisoes.png)
+- ![Descrição da imagem](Colisoes.png)
 
 ---
 ### 5. Encadeamento Aberto:

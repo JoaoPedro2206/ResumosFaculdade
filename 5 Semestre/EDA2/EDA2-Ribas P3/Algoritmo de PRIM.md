@@ -119,8 +119,8 @@ while (true) {
 	- Para `v = 0`, `pa[0] = 0` (raiz).
 
 ---
-![](../Imagens/P1.png)
-![](../Imagens/P2.png)
-![](../Imagens/P3.png)
-![](../Imagens/P4.png)
-![](../Imagens/P5.png)
+![](P1.png)
+![](P2.png)
+![](P3.png)
+![](P4.png)
+![](P5.png)

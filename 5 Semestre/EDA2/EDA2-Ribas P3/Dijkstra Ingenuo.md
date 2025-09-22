@@ -154,27 +154,27 @@ void GRAPHcptD1(Graph G, int s, int *pa, int *dist){
 - **Limite fixo em `mature[1000]`**: esse array suporta até 1000 vértices; para grafos maiores, seria melhor usar alocação dinâmica.
 
 ### 3. Execucao Manual
-![](../Imagens/D1.png)
+![](D1.png)
 
 - Os Vetores Iniciam assim:
-![](../Imagens/D2.png)
+![](D2.png)
 - Iteracao 1:
-![](../Imagens/D3.png)
+![](D3.png)
 
 - Iteracao 2:
-![](../Imagens/D4.png)
+![](D4.png)
 
 - Iteracao 3:
-![](../Imagens/D5.png)
+![](D5.png)
 
 - Iteracao 4:
-![](../Imagens/D7.png)
+![](D7.png)
 
 - Iteracao 5:
-![](../Imagens/D8.png)
+![](D8.png)
 
 - Iteracao 6 (FINAL):
-![](../Imagens/D9.png)
+![](D9.png)
 
 
 

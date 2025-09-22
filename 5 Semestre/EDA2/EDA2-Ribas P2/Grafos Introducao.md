@@ -38,88 +38,88 @@
 - No caso dos **grafos direcionados**, temos:
 	- *Grau de entrada*: Arestas que chegam ao vertice.
 	- *Grau de saida*: Arestas que partem do vertice
-![](../Imagens/G1.png)
+![](G1.png)
 
 ##### 2.3 Laco
 - Uma aresta e chamada de *Laco* se seu vertice de partida e o mesmo que o de chegada, ou seja, a aresta conecta o vertice com ele mesmo (v, v).
- ![](../Imagens/G2.png)
+ ![](G2.png)
 ##### 2.4 Caminho
 - E uma sequencia de vertices de modo que existe sempre uma aresta ligando o vertice anterior com o seguinte.
 - **Caminho Simples**:
 	- Nenhum dos vertives no caminho se repete.
 - **Comprimento do Caminho**:
 	- E o numero de arestas que o caminho usa.
-![](../Imagens/G3.png)
+![](G3.png)
 
 ##### 2.5 Ciclo
 - E um caminho que comeca e termina no mesmo vertice.
 - Um **Laco** e um ciclo de comprimento 1.
 - **Grafo Aciclico**:
 	- Nao contem *ciclos simples* (onde cada vertice aparece apenas uma vez cada).
-![](../Imagens/G4.png)
+![](G4.png)
 ##### 2.6 Arestas Multiplas
 - Tambem chamado **Multigrafo**.
 - E um grafo que permite mais de uma aresta conectando o mesmo par de vertices.
 - Nesse caso, as arestas sao ditas *paralelas*.
-![](../Imagens/G5.png)
+![](G5.png)
 ---
 ### 3. Tipos de Grafos
 
 ##### 3.1 Grafo Trivial
 - E um grafo com um unico vertice e sem arestas.
-![](../Imagens/G6.png)
+![](G6.png)
 
 ##### 3.2 Grafo Simples
 - E um grafo nao direcionado, sem lacos e sem arestas paralelas.
-![](../Imagens/G7.png)
+![](G7.png)
 
 ##### 3.3 Grafo Completo
 - E um grafo simples onde cada vertice se conecta a todos os outros vertices.
-![](../Imagens/G9.png)
+![](G9.png)
 
 ##### 3.4 Grafo Regular
 - E um grafo onde todos os vertices possuem o mesmo grau.
 - E um tipo de grafo completo.
 - O exemplo do grafo com grau 3 e um grafo regular mas nao e um grafo completo, pois os seus vertices nao se conectar com todos os outros vertices.
-![](../Imagens/G10.png)
+![](G10.png)
 ##### 3.5 SubGrafo
 - Um grafo `Gs(Vs, As)` e chamado de *subgrafo* de `G(V, S)` se :
 	- *Vs* esta contido em *V*.
 	- *As* esta contido em *A*.
-![](../Imagens/G11.png)
+![](G11.png)
 
 ##### 3.6 Grafo Bipartido
 - E um grafo cujos vertices podem ser divididos em dois conjunto.
 - Nesse caso, as arestas ligam os vertices que estao em conjunto diferentes, nunca ligando vertices do mesmo conjunto.
-![](../Imagens/G12.png)
+![](G12.png)
 
 ##### 3.7 Grafo Conexo
 - Existe um caminho partindo qualquer vertice ate qualquer outro vertice do grafo.
-![](../Imagens/G13.png)
+![](G13.png)
 
 ##### 3.8 Grafo Desconexo
 - Nao existe um caminho ligando dois vertices selecionados.
-![](../Imagens/G14.png)
+![](G14.png)
 
 ##### 3.9 Grafos Isomorfos 
 - Dois grafos, `G1(V1, A1)` e `G2(V2, A2)`, sao ditos **isomorfos** se existe uma funcao que faca o mapeamento de vertices e arestas de modo que os dois grafos se tornem coincidentes.
-![](../Imagens/G15.png)
+![](G15.png)
 
 ##### 3.10 Grafos Ponderados
 - E o grafo que possui **pesos** associados a cada uma de suas arestas.
-![](../Imagens/G16.png)
+![](G16.png)
 
 ##### 3.11 Grafos Hamiltonianos
 - E o grafo que possui um caminho que visita cada *vertice* apenas uma vez.
 	- Sua deteccao e uma tarefa extremamente ardua.
 - Um **ciclo hamiltoniano** e o ciclo que visita cada *vertice* apenas uma vez.
-![](../Imagens/G17.png)
+![](G17.png)
 
 ##### 3.12 Grafos Eulerianos
 - E o grafo que possui um *ciclo* que visita cada *aresta* apenas uma vez.
-![](../Imagens/G18.png)
+![](G18.png)
 
 ##### 3.13 Grafos Semi-Eulerianos
 - E o grafo que possui um *caminho* que visita cada aresta apenas uma vez.
-![](../Imagens/G19.png)
+![](G19.png)
 ---

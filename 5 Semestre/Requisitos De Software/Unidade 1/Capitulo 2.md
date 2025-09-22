@@ -1,7 +1,7 @@
 ## 1. Conceito
 
 - No universo do desenvolvimento de software, a compreensão clara dos conceitos fundamentais é essencial para navegar pela multiplicidade de abordagens, ciclos de vida, processos e frameworks disponíveis.
-![](../../Imagens/ConceitosRequisitos.png)
+![](ConceitosRequisitos.png)
 
 ---
 ### 1.1 Abordagens de Desenvolvimento de Software

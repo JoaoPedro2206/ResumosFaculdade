@@ -2,7 +2,7 @@
 - Insercao/Remocao/Busca e feita em `O(log N)`.
 - Seu pior caso(raro) e `O(n)`.
 - Facil implementacao.
-![](../Imagens/SL1.png)
+![](SL1.png)
 - Usa uma estrutura hierarquica de Listas Dinamicas
 - As listas sao organizadas em diferentes niveis
 - Niveis mais altos permitem **pular** varios Nos, o que acelera o processo de busca.
@@ -41,7 +41,7 @@ typedef struct SkipList{
 	struct No *inicio;
 }SkipList;
 ```
-![](../Imagens/SL2.png)
+![](SL2.png)
 
 - **Importante**:
 	- Por questoes de desempenho, nossa Skip List ira armazenar a chave apenas na Struct No.
@@ -103,8 +103,8 @@ void liberaSkipList(SkipList *sk){
 
 }
 ```
-![](../Imagens/SL3.png)![](../Imagens/SL4.png)
-![](../Imagens/SL5.png)
+![](SL3.png)![](SL4.png)
+![](SL5.png)
 
 ---
 #### Busca na SkipList:

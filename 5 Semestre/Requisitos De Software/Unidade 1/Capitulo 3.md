@@ -55,8 +55,8 @@
 - `Os valores e princípios ágeis destacam a importância da flexibilidade, colaboração, foco no cliente e entrega continua de valor. Eles formam a base para diversos processos e frameworks ágeis, como Extreme Programming (XP), Scrum e Kanban, cada um aplicando esses valores e princípios de maneira que se adaptem ao contexto e aos objetivos específicos do projeto de software.`
 ---
 #### 1.1.3 Comparacao Dirigido por plano X Agil
-![](../../Imagens/TabelaRequisitos.png)
-![](../../Imagens/TabelaRequisitos2.png)
+![](TabelaRequisitos.png)
+![](TabelaRequisitos2.png)
 
 ---
 #### 1.1.4 Abordagens Hibridas
