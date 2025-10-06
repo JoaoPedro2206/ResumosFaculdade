@@ -25,12 +25,14 @@
             "id": "aa65d7d04b630b98",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Imagens/FSO3.png"
+                "file": "6 Semestre/Fundamentos de Sistemas Operacionais/Exercicios.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "FSO3"
+              "icon": "lucide-file",
+              "title": "Exercicios"
             }
           }
         ],
@@ -155,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens de Programacao/Sem título.md",
+                "file": "6 Semestre/Fundamentos de Sistemas Operacionais/Exercicios.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Sem título"
+              "title": "Sumário de Exercicios"
             }
           }
         ],
@@ -182,24 +184,28 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "d81569475779c745",
+  "active": "aa65d7d04b630b98",
   "lastOpenFiles": [
+    "6 Semestre/Fundamentos de Sistemas Operacionais/01 - Nocoes de SO.md",
+    "Imagens/FSO2.png",
+    "Imagens/FSO7.png",
+    "Imagens/FSO6.png",
     "README.md",
+    "Imagens/FSO5.png",
+    "Imagens/FSO4.png",
+    "Linguagens de Programacao/Sem título.md",
     "Linguagens de Programacao/Java",
     "Linguagens de Programacao/Swift",
     "Linguagens de Programacao/Python",
     "Linguagens de Programacao/C++",
     "Imagens/FSO3.png",
-    "Linguagens de Programacao/Sem título.md",
     "Pasted.md",
     "Imagens/FSO1.png",
     "Linguagens de Programacao/C/Ponteiros.md",
     "Linguagens de Programacao",
     "Linguagens de Programacao/C/Funcoes.md",
     "Linguagens de Programacao/C/Arrays.md",
-    "6 Semestre/Fundamentos de Sistemas Operacionais/01 - Nocoes de SO.md",
     "6 Semestre/Fundamentos de Sistemas Operacionais/Exercicios.md",
-    "Imagens/FSO2.png",
     "6 Semestre/Fundamentos de Sistemas Operacionais/05 - Deadlock.md",
     "6 Semestre/Fundamentos de Sistemas Operacionais/06.2 - Processos Unix.md",
     "6 Semestre/Fundamentos de Sistemas Operacionais/06 - Pthreads.md",
@@ -214,7 +220,6 @@
     "5 Semestre/EDA2/EDA2-Ribas P2/Busca em Grafos.md",
     "Imagens/RedBlack.png",
     "5 Semestre/EDA2/EDA2-Ribas P1/Arvore Binaria De Busca.md",
-    "Imagens/B1.png",
     "6 Semestre/Banco De Dados 1",
     "6 Semestre/Sem título.md",
     "6 Semestre/Inteligencia Artificial",
@@ -226,10 +231,6 @@
     "5 Semestre/EDA2/EDA2-Ribas P3/Bellman-Ford.md",
     "5 Semestre/EDA2/EDA2-Ribas P3/Dijkstra Com Fila de Prioridade.md",
     "5 Semestre/EDA2/EDA2-Ribas P3/Arvores Geradoras Minimas.md",
-    "5 Semestre/EDA2/EDA2-Ribas P3/Arvores Geradoras.md",
-    "Imagens/P5.png",
-    "Imagens/P4.png",
-    "Imagens/P3.png",
     "Sem título.canvas",
     "Sem título 1.canvas",
     "Teste/Sem título.canvas"
