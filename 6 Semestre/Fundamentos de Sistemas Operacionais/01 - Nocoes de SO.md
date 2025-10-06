@@ -1,6 +1,6 @@
 Sistema Operacional é um programa ou conjunto de programas.
 - Visão Geral de um Sistema Computacional:
-![[Pasted image 20251006163342.png]]
+![[FSO1.png]]
 **Modo Protegido não é modo administrador ou modo usuário. Ele é ainda mais forte e restrito.**
 
 - **Tanenbaum:** a maioria dos SOs possuem dois modos de operação: modo protegido (kernel) e modo usuário.
@@ -92,7 +92,7 @@ Sistema Operacional é um programa ou conjunto de programas.
 		- Nessa geração, existia dois processos ativos concorrentemente no sistema operacional.
 		- Mas a concorrência era muito primitiva: quando uma tarefa atual fazia uma pausar para esperar uma fita ou outra operação de E/S, a CPU ficava ociosa até o término da E/S.
 		- A solução encontrada foi dividir a memória em várias partes, com uma tarefa diferente em cada partição:
-			- ![[Pasted image 20251006172613.png]]
+			- ![[FSO3.png]]
 			- Enquanto uma tarefa aguardava uma operação de E/S a outra poderia avançar.
 			- Para isso, foram necessária modificações no hardware para proteger partições contra transgressões ou bugs das outras.
 		- Outro aspecto adicionado a essa geração foi a capacidade de transferir tarefas de cartões para discos.

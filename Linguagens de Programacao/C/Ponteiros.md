@@ -171,7 +171,7 @@ int main(){
 	}
 }
 ```
-![](../Imagens/StructEncadeada.png)
+![](StructEncadeada.png)
 
 
 ---

@@ -25,14 +25,12 @@
             "id": "aa65d7d04b630b98",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "6 Semestre/Fundamentos de Sistemas Operacionais/01 - Nocoes de SO.md",
-                "mode": "source",
-                "source": false
+                "file": "Imagens/FSO3.png"
               },
-              "icon": "lucide-file",
-              "title": "01 - Nocoes de SO"
+              "icon": "lucide-image",
+              "title": "FSO3"
             }
           }
         ],
@@ -157,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 Semestre/Fundamentos de Sistemas Operacionais/01 - Nocoes de SO.md",
+                "file": "Linguagens de Programacao/Sem título.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 01 - Nocoes de SO"
+              "title": "Sumário de Sem título"
             }
           }
         ],
@@ -184,13 +182,24 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "aa65d7d04b630b98",
+  "active": "d81569475779c745",
   "lastOpenFiles": [
-    "Pasted image 20251006172613.png",
-    "6 Semestre/Fundamentos de Sistemas Operacionais/Exercicios.md",
-    "Pasted image 20251006164101.png",
+    "README.md",
+    "Linguagens de Programacao/Java",
+    "Linguagens de Programacao/Swift",
+    "Linguagens de Programacao/Python",
+    "Linguagens de Programacao/C++",
+    "Imagens/FSO3.png",
+    "Linguagens de Programacao/Sem título.md",
+    "Pasted.md",
+    "Imagens/FSO1.png",
+    "Linguagens de Programacao/C/Ponteiros.md",
+    "Linguagens de Programacao",
+    "Linguagens de Programacao/C/Funcoes.md",
+    "Linguagens de Programacao/C/Arrays.md",
     "6 Semestre/Fundamentos de Sistemas Operacionais/01 - Nocoes de SO.md",
-    "Pasted image 20251006163342.png",
+    "6 Semestre/Fundamentos de Sistemas Operacionais/Exercicios.md",
+    "Imagens/FSO2.png",
     "6 Semestre/Fundamentos de Sistemas Operacionais/05 - Deadlock.md",
     "6 Semestre/Fundamentos de Sistemas Operacionais/06.2 - Processos Unix.md",
     "6 Semestre/Fundamentos de Sistemas Operacionais/06 - Pthreads.md",
@@ -202,7 +211,6 @@
     "6 Semestre/Banco De Dados 1/SELECT.md",
     "Imagens/B2.jpg",
     "Imagens/G23.png",
-    "Pasted.md",
     "5 Semestre/EDA2/EDA2-Ribas P2/Busca em Grafos.md",
     "Imagens/RedBlack.png",
     "5 Semestre/EDA2/EDA2-Ribas P1/Arvore Binaria De Busca.md",
@@ -213,25 +221,15 @@
     "6 Semestre/Estrutura de Dados para Competicao",
     "6 Semestre/Fundamentos de Sistemas Operacionais",
     "5 Semestre/EDA2",
-    "5 Semestre",
     "5 Semestre/EDA2/EDA2-Ribas P2/DAG.md",
     "6 Semestre/Projeto de Algoritmos/Sem título.md",
-    "6 Semestre/Projeto de Algoritmos",
     "5 Semestre/EDA2/EDA2-Ribas P3/Bellman-Ford.md",
-    "6 Semestre",
     "5 Semestre/EDA2/EDA2-Ribas P3/Dijkstra Com Fila de Prioridade.md",
     "5 Semestre/EDA2/EDA2-Ribas P3/Arvores Geradoras Minimas.md",
     "5 Semestre/EDA2/EDA2-Ribas P3/Arvores Geradoras.md",
-    "5 Semestre/EDA2/EDA2-Ribas P3/Algoritmo de PRIM.md",
-    "5 Semestre/EDA2/EDA2-Ribas P3/Algoritmo de Kruskal.md",
-    "5 Semestre/EDA2/EDA2-Ribas P3/Dijkstra Ingenuo.md",
     "Imagens/P5.png",
     "Imagens/P4.png",
     "Imagens/P3.png",
-    "Imagens/P2.png",
-    "5 Semestre/EDA2/EDA2-Ribas P2/Grafos Introducao.md",
-    "5 Semestre/Requisitos De Software/Unidade 3",
-    "FAC/Sem título",
     "Sem título.canvas",
     "Sem título 1.canvas",
     "Teste/Sem título.canvas"

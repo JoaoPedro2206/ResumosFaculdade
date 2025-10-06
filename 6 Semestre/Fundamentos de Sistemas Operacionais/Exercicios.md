@@ -1,3 +1,3 @@
 ## 1 
-![[Pasted image 20251006164101.png]]
+![[FSO2.png]]
 - Letra D.
