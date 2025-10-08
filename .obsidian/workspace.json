@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 Semestre/Fundamentos de Sistemas Operacionais/05 - Deadlock.md",
+                "file": "6 Semestre/Fundamentos de Sistemas Operacionais/06 - Pthreads.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05 - Deadlock"
+              "title": "06 - Pthreads"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 Semestre/Fundamentos de Sistemas Operacionais/05 - Deadlock.md",
+                "file": "6 Semestre/Fundamentos de Sistemas Operacionais/06 - Pthreads.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 05 - Deadlock"
+              "title": "Sumário de 06 - Pthreads"
             }
           }
         ],
@@ -186,11 +186,14 @@
   },
   "active": "aa65d7d04b630b98",
   "lastOpenFiles": [
-    "6 Semestre/Fundamentos de Sistemas Operacionais/04 - Comunicacao Threads.md",
-    "6 Semestre/Fundamentos de Sistemas Operacionais/03 - Threads.md",
-    "6 Semestre/Fundamentos de Sistemas Operacionais/02 - Processos.md",
+    "6 Semestre/Fundamentos de Sistemas Operacionais/05 - Deadlock.md",
+    "6 Semestre/Fundamentos de Sistemas Operacionais/06.2 - Processos Unix.md",
     "6 Semestre/Fundamentos de Sistemas Operacionais/Exercicios.md",
+    "6 Semestre/Fundamentos de Sistemas Operacionais/06 - Pthreads.md",
+    "6 Semestre/Fundamentos de Sistemas Operacionais/04 - Comunicacao Threads.md",
+    "6 Semestre/Fundamentos de Sistemas Operacionais/02 - Processos.md",
     "6 Semestre/Fundamentos de Sistemas Operacionais/01 - Nocoes de SO.md",
+    "6 Semestre/Fundamentos de Sistemas Operacionais/03 - Threads.md",
     "Imagens/FSO2.png",
     "Imagens/FSO7.png",
     "Imagens/FSO6.png",
@@ -209,9 +212,6 @@
     "Linguagens de Programacao",
     "Linguagens de Programacao/C/Funcoes.md",
     "Linguagens de Programacao/C/Arrays.md",
-    "6 Semestre/Fundamentos de Sistemas Operacionais/05 - Deadlock.md",
-    "6 Semestre/Fundamentos de Sistemas Operacionais/06.2 - Processos Unix.md",
-    "6 Semestre/Fundamentos de Sistemas Operacionais/06 - Pthreads.md",
     "6 Semestre/Banco De Dados 1/Nomeclaturas.md",
     "6 Semestre/Banco De Dados 1/Algebra Relacional.md",
     "6 Semestre/Banco De Dados 1/SELECT.md",
