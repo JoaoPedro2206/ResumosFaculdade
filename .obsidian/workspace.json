@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 Semestre/Fundamentos de Sistemas Operacionais/06 - Pthreads.md",
+                "file": "6 Semestre/Fundamentos de Sistemas Operacionais/06.2 - Processos Unix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06 - Pthreads"
+              "title": "06.2 - Processos Unix"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 Semestre/Fundamentos de Sistemas Operacionais/06 - Pthreads.md",
+                "file": "6 Semestre/Fundamentos de Sistemas Operacionais/06.2 - Processos Unix.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 06 - Pthreads"
+              "title": "Sumário de 06.2 - Processos Unix"
             }
           }
         ],
@@ -186,10 +186,10 @@
   },
   "active": "aa65d7d04b630b98",
   "lastOpenFiles": [
+    "6 Semestre/Fundamentos de Sistemas Operacionais/06 - Pthreads.md",
     "6 Semestre/Fundamentos de Sistemas Operacionais/05 - Deadlock.md",
     "6 Semestre/Fundamentos de Sistemas Operacionais/06.2 - Processos Unix.md",
     "6 Semestre/Fundamentos de Sistemas Operacionais/Exercicios.md",
-    "6 Semestre/Fundamentos de Sistemas Operacionais/06 - Pthreads.md",
     "6 Semestre/Fundamentos de Sistemas Operacionais/04 - Comunicacao Threads.md",
     "6 Semestre/Fundamentos de Sistemas Operacionais/02 - Processos.md",
     "6 Semestre/Fundamentos de Sistemas Operacionais/01 - Nocoes de SO.md",
