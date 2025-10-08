@@ -1,6 +1,6 @@
 Sistema Operacional é um programa ou conjunto de programas.
 - Visão Geral de um Sistema Computacional:
-![](Imagens/FSO1.png)
+![](../../Imagens/FSO1.png)
 **Modo Protegido não é modo administrador ou modo usuário. Ele é ainda mais forte e restrito.**
 
 - **Tanenbaum:** a maioria dos SOs possuem dois modos de operação: modo protegido (kernel) e modo usuário.
@@ -92,7 +92,7 @@ Sistema Operacional é um programa ou conjunto de programas.
 		- Nessa geração, existia dois processos ativos concorrentemente no sistema operacional.
 		- Mas a concorrência era muito primitiva: quando uma tarefa atual fazia uma pausar para esperar uma fita ou outra operação de E/S, a CPU ficava ociosa até o término da E/S.
 		- A solução encontrada foi dividir a memória em várias partes, com uma tarefa diferente em cada partição:
-			- ![](Imagens/FSO3.png)
+			- ![](../../Imagens/FSO3.png)
 			- Enquanto uma tarefa aguardava uma operação de E/S a outra poderia avançar.
 			- Para isso, foram necessária modificações no hardware para proteger partições contra transgressões ou bugs das outras.
 		- Outro aspecto adicionado a essa geração foi a capacidade de transferir tarefas de cartões para discos.
@@ -235,7 +235,7 @@ Sistema Operacional é um programa ou conjunto de programas.
 - Algumas partes de SO é impossível implementar esse esquema: carregar comando nos registradores físicos;
 - Difícil implementação, mas relativa popularidade no meio;
 - Sistema Operacional Distribuído Mach:
-- ![](Imagens/FSO4.png)
+- ![](../../Imagens/FSO4.png)
 
 #### Máquinas virtuais
 
@@ -244,11 +244,11 @@ Sistema Operacional é um programa ou conjunto de programas.
 - Em cima do monitor, várias máquinas virtuais podem ser utilizadas;
 - As máquinas virtuais implementam uma cópia do hardware configurável;
 - Hipervisor tipo 1 (EX: ESX Server da VMware):
-- ![](Imagens/FSO5.png)
+- ![](../../Imagens/FSO5.png)
 - Monitor de Máquina Virtual é um SO do tipo Máquinas Virtuais;
 - Não confundir com uso de um Host SO;
 - Hipervisor tipo 2 (EX: VMware Workstation):
-- ![](Imagens/FSO6.png)
+- ![](../../Imagens/FSO6.png)
 - Host SO é um outro tipo de SO (Monolítico, Camadas, etc);
 
 #### EXO-Kernel
@@ -271,7 +271,7 @@ Sistema Operacional é um programa ou conjunto de programas.
 - Mas nesse caso, é necessário simular um SO completo;
 - Utilizam namespace, cgroups, selinux para isolar processos, ou seja, usam várias funcionalidades do SO, mas não são SO: rodam em modo usuário (Administrador);
 - Os contêiners compartilham o núcleo do sistema operacional
-- ![](Imagens/FSO7.png)
+- ![](../../Imagens/FSO7.png)
 - Fora isso, cada contêiner pode escolher as suas bibliotecas de espaço de usuário;
 - As informações dos contêiners são isoladas(sandbox);
 - Se existir alguma incompatibilidade entre as bibliotecas, os contêiners não serão afetados;

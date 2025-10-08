@@ -1,3 +1,3 @@
 ## 1 
-![](Imagens/FSO2.png)
+![](../../Imagens/FSO2.png)
 - Letra D.
